@@ -1,8 +1,8 @@
 #include <xc.h>
 #define _XTAL_FREQ 8000000
 
-#include "HAL/LED/LED_INTERFACE.h"
-#include "MCAL/EXTI/EXTI_Interface.h"
+#include "../HAL/LED/LED_interface.h"
+#include "../MCAL/GPIO/GPIO_interface.h"
 
 /* LED Definition */
 #define LED_PORT   GPIO_PORTB
@@ -25,4 +25,5 @@ void main(void)
     {
         /* Main loop empty */
     }
+
 }
