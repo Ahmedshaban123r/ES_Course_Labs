@@ -1,5 +1,5 @@
-#include "HAL/LED/LED_INTERFACE.h"
-#include "MCAL/GPIO/GPIO_INTERFACE.h"
+#include "../HAL/LED/LED_interface.h"
+#include "../MCAL/GPIO/GPIO_interface.h"
 #include <util/delay.h>
 
 /* LED Definitions */
